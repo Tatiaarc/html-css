@@ -97,11 +97,6 @@ nav li a:hover{
     background-color: var(--green-color);
 }
 
-@media screen and (max-width: 600px){
-    body{
-        background-color: red;
-    }
-}
 
 .resena{
     padding: 5%;
