@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+/* -----VARIABLES ----- */
+:root{
+    --green-color:#7ACC2D;
+    --white-color: white;
+    --black-color: #313337;
+    --space: 10px;
+    --normal: 12px;
+    --box: 0px 0 2px 1px #e6e5e9;
+}
+
+
+/* -----VARIABLES ----- */
+html, body{
+    padding: 0px;
+    margin: 0px;
+    font-size: var(--normal);
+    font-family: 'Open Sans', sans-serif;
+}
+
+nav{
+    display: flex;
+    background-color: var(--green-color);
+    padding: var(--space);
+    color: var(--white-color);
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul{
+    display: flex;
+
+}
+
+nav li{
+
+padding-left: 20px;
+list-style: none;
+}
+nav li a{
+    color: var(--black-color);
+    text-decoration: none;
+}
+nav li a:hover{
+}
+
+/* main section */
+
+.main_section{
+    padding: 15%;
+    text-align: center;
+    border: red solid 1px;
+    }
+
+.products{
+    background-image: url("../images/curve.png");
+    height: 50px;
+    background-size: cover;
+    background-position: center top;
+    padding: 20%;
+    display: flex;
+ 
+    border: red solid 1px;
+}
+
+.product{
+    padding: var(--space);
+    margin-top: -240px;
+}
+.product .content{
+    background-color: var(--white-color);
+    /* border: red solid 1px; */
+    padding: 15px;
+    box-shadow: var(--box);
+    /* position: relative;
+    top: -300px; */
+
+   
+}
+.image_content{
+    text-align:center;
+}
+
+.main_button{
+    background-color: var(--green-color) ;
+    width: 100%;
+    padding: var(--space);
+    font-size: 17px;
+    color: var(--white-color);
+    border: 0;
+    cursor: pointer;
+    border-radius: 2px;
+}
+
+.main_button:hover{
+    background-color: var(--green-color);
+}
+
+@media screen and (max-width: 600px){
+    body{
+        background-color: red;
+    }
+}
+
+.resena{
+    padding: 5%;
+    display: flex;
+    /* height: 100px; */
+    justify-content: center;
+    /* justify-content: space-between; */
+}
+
+.resenaUno{
+    /* border: solid 1px red; */
+    padding: 20px;
+    /* border: 10px; */
+    
+}
+
+.contResena{
+    
+    /* border: solid 1px red; */
+    height: 100%;
+    padding: 20px;
+
+}
+
+.imagenResena{
+    /* height: 100%; */
+    width: 100%;
+    text-align: center;
+}
+
+.menciones{
+    display: flex;
+    justify-content: center;
+    padding: 10%;
+    padding-top: 20px;
+}
+.mencion{
+    padding: 20px;
+}
+.contentMencion{
+    /* border: solid 1px red; */
+    padding: 0px;
+    box-shadow: var(--box);
+}
+
+h2, p{
+    padding: 5px;
+    margin: 10px;
+}
+
+.tituloMenciones{
+    text-align: center;
+}
