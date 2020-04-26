@@ -18,10 +18,17 @@
     height: auto;
 }
 .menciones{
-    display: block;
+    display: inherit;
 }
 .contMenciones{
     height: auto;
 }
+.image_contenr{
+    width: 100%;
+    align-items:center ;
+    text-align: center;
+    justify-content: center;
+}
+
 
 }
